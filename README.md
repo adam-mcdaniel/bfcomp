@@ -22,7 +22,7 @@ All done!
 ```
 $ bfcomp --help
 
-bfcomp 0.1.0
+bfcomp x.x.x
 Adam McDaniel <adam.mcdanie17@gmail.com>
 Compiles brainfuck by interpreting the AWIB brainfuck compiler with BFCORE
 
