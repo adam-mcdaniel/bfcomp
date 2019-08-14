@@ -23,7 +23,11 @@ fn main() {
         (@arg OUTPUT_FILE: -o --out +takes_value "Path of output file")
     )
     .arg(
-        Arg::from_usage("-t --target")
+        Arg::with_name("TARGET")
+            .short("t")
+            .long("target")
+            .required(true)
+            .takes_value(true)
             .possible_values(&Lang::variants())
             .case_insensitive(true)
             .allow_hyphen_values(true)
