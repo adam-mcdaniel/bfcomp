@@ -14,4 +14,4 @@ path = "src/bin.rs"
 
 [dependencies]
 clap = "2.33"
-bfcore = "0.2"
+bfcore = "0.2.0"

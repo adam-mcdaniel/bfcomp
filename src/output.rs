@@ -22,7 +22,7 @@ impl CompilerOutput {
     }
 }
 
-impl Output for &mut CompilerOutput {
+impl Output for CompilerOutput {
     fn output(&mut self, ch: char) {
         self.output_script.push(ch)
     }

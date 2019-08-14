@@ -22,7 +22,7 @@ impl CompilerInput {
 }
 
 
-impl Input for &mut CompilerInput {
+impl Input for CompilerInput {
     fn input(&mut self) -> char {
         match self.input_script.chars().nth(self.index) {
             Some(ch) => { self.index += 1; ch },
