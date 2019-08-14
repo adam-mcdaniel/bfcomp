@@ -6,6 +6,8 @@ edition = "2018"
 description = "A compiler for BrainF*ck implemented with AWIB and bfcore"
 readme = "README.md"
 license = "GPL-3.0"
+homepage = "https://github.com/adam-mcdaniel/bfcomp"
+repository = "https://github.com/adam-mcdaniel/bfcomp"
 
 [[bin]]
 name = "bfcomp"
