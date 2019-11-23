@@ -32,6 +32,7 @@ fn main() {
             .case_insensitive(true)
             .allow_hyphen_values(true)
             .help("The target language to output source code for (c, ruby, go, tcl, java)")
+            .hide_possible_values(true)
     )
     .setting(AppSettings::ArgRequiredElseHelp)
     .get_matches();
